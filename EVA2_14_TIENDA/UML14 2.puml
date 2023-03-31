@@ -1,0 +1,12 @@
+@startuml
+annotation java.lang.Override
+class Productos.Computadora
+class Productos.Ropa
+class Productos.jeans
+class SuperClases.Electronica
+class SuperClases.Ropa
+Productos.Computadora ..> java.lang.Override
+Productos.Computadora --|> SuperClases.Electronica
+Productos.jeans ..> java.lang.Override
+Productos.jeans --|> SuperClases.Ropa
+@enduml

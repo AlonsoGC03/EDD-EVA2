@@ -1,0 +1,14 @@
+@startuml
+annotation java.lang.Override
+class com.mycompany.eva2_16_interfaces.EVA2_16_INTERFACES
+class com.mycompany.eva2_16_interfaces.computadora
+class com.mycompany.eva2_16_interfaces.persona
+class com.mycompany.eva2_16_interfaces.producto
+interface com.mycompany.eva2_16_interfaces.mostar_datos
+interface com.mycompany.eva2_16_interfaces.mostrar_datos
+com.mycompany.eva2_16_interfaces.computadora ..> java.lang.Override
+com.mycompany.eva2_16_interfaces.computadora --|> com.mycompany.eva2_16_interfaces.producto
+com.mycompany.eva2_16_interfaces.computadora --|> com.mycompany.eva2_16_interfaces.mostar_datos
+com.mycompany.eva2_16_interfaces.persona ..> java.lang.Override
+com.mycompany.eva2_16_interfaces.persona --|> com.mycompany.eva2_16_interfaces.mostar_datos
+@enduml

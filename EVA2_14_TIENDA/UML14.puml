@@ -1,0 +1,7 @@
+@startuml
+abstract class SuperClases.Electronica
+abstract class SuperClases.Productos
+abstract class SuperClases.Ropa
+SuperClases.Electronica --|> SuperClases.Productos
+SuperClases.Ropa --|> SuperClases.Productos
+@enduml

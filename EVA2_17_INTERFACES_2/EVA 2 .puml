@@ -1,0 +1,15 @@
+@startuml
+annotation java.lang.Override
+class com.mycompany.eva2_17_interfaces_2.Circulo
+class com.mycompany.eva2_17_interfaces_2.EVA2_17_INTERFACES_2
+class com.mycompany.eva2_17_interfaces_2.Triangulo
+interface com.mycompany.eva2_17_interfaces_2.Figuras
+interface com.mycompany.eva2_17_interfaces_2.mostrardatos
+com.mycompany.eva2_17_interfaces_2.Circulo ..> java.lang.Override
+com.mycompany.eva2_17_interfaces_2.Circulo --|> com.mycompany.eva2_17_interfaces_2.Figuras
+com.mycompany.eva2_17_interfaces_2.Circulo --|> com.mycompany.eva2_17_interfaces_2.mostrardatos
+com.mycompany.eva2_17_interfaces_2.EVA2_17_INTERFACES_2 ..> java.lang.Override
+com.mycompany.eva2_17_interfaces_2.Triangulo ..> java.lang.Override
+com.mycompany.eva2_17_interfaces_2.Triangulo --|> com.mycompany.eva2_17_interfaces_2.Figuras
+com.mycompany.eva2_17_interfaces_2.Triangulo --|> com.mycompany.eva2_17_interfaces_2.mostrardatos
+@enduml
